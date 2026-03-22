@@ -2,6 +2,9 @@ plugins {
     alias(libs.plugins.android.application)
 }
 
+val appVersionCode = 10000
+val appVersionName = "1.0.0.0"
+
 android {
     namespace = "com.example.passwordmanager"
     compileSdk = 36
@@ -10,8 +13,8 @@ android {
         applicationId = "com.example.passwordmanager"
         minSdk = 24
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = appVersionCode
+        versionName = appVersionName
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
