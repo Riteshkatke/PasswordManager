@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PasswordManager</string>
+    <string name="login_title">Unlock Password Manager</string>
+    <string name="master_password_hint">Enter master password</string>
+    <string name="unlock">Unlock</string>
+    <string name="copy_password">Copy Password</string>
+    <string name="main_title">Store Passwords Locally</string>
+    <string name="name_hint">Account name</string>
+    <string name="website_hint">Website or app</string>
+    <string name="username_hint">Username or email</string>
+    <string name="password_hint">Password</string>
+    <string name="save_password">Save Password</string>
+    <string name="saved_passwords">Saved Passwords</string>
+    <string name="validation_message">Name, username, and password are required.</string>
+    <string name="save_success">Password saved to local database.</string>
+    <string name="save_failed">Could not save password.</string>
+    <string name="no_website">No website provided</string>
+    <string name="website_value">Website: %1$s</string>
+    <string name="username_value">Username: %1$s</string>
+    <string name="password_value">Password: %1$s</string>
+    <string name="show_password">Show password</string>
+    <string name="hide_password">Hide password</string>
+    <string name="generate_password">Generate Password</string>
+    <string name="password_length_hint">Length</string>
+    <string name="password_generated">Password generated.</string>
+    <string name="invalid_length_message">Enter a length between 4 and 32.</string>
+    <string name="export_database">Export Database</string>
+    <string name="export_success_message">Database exported. Choose Downloads on your phone to keep the file there.</string>
+    <string name="export_failed_message">Could not export the database file.</string>
+</resources>
